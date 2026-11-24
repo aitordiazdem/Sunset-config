@@ -39,7 +39,7 @@ exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 exec --no-startup-id nm-applet
 exec --no-startup-id polybar
 exec --no-startup-id picom -b --config ~/.config/i3/picom.conf
-exec --no-startup-id feh  --bg-fill ~/Downloads/wallpapers/anochecer.jpg
+exec --no-startup-id feh  --bg-fill ~/.config/wallpapers/anochecer.jpg
 
 # Use pactl to adjust volume in PulseAudio.
 set $refresh_i3status killall -SIGUSR1 i3status
